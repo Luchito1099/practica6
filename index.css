@@ -3,3 +3,86 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Popins', sans-serif;
+    background-color: #F2F5F9;
+    color: #111729;
+}
+img.image {
+   display: flex;
+    height: 280px;
+    border-radius: 12px;
+    
+}
+img.author-img {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    
+    
+}
+img.imageoverlay {
+    display: flex;
+    margin-top: -67px;
+    
+}
+section.card-container {
+    display: flex;
+    background-color: #F2F5F9;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+h3 {
+    font-size: 1rem;
+}
+p {
+    font-size: 1rem;
+    margin-bottom: 24px;
+    color: #4A5567;
+    line-height: 1.5;
+}
+div.card {
+    display: flex;
+    width:418px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    flex-direction: column;
+    margin: 124px auto;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+div.box-info {
+    display: flex;
+    flex-direction: column;
+    padding: 0 32px 0 32px;
+    width: 100%;
+    margin-bottom: 24px;
+
+}
+
+div.author-info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;
+    align-items: center;
+    gap: 12px;
+    
+}
+div.author-image {
+    display: block
+    
+    
+}
+.author-name p {
+  margin: 0;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #E2E8F0;
+    margin-left: -32px;
+    margin-right: -32px;
+}
