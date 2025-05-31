@@ -15,10 +15,10 @@ img.image {
     
 }
 img.author-img {
-    width: 66px;
-    height: 66px;
+    width: 42px;
+    height: 42px;
     border-radius: 50%;
-    
+    border: 2px solid #F2F5F9;
     
 }
 img.imageoverlay {
